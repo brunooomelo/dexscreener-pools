@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Dexscreener pools",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://dexscreener.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "pool-dexscreener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "build": "tsup src/content.ts src/background.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
