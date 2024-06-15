@@ -16,7 +16,7 @@ Esta é uma extensão simples para o Chrome desenvolvida usando TypeScript. Ela 
 2. Na barra de URL, digite `chrome://extensions/` e pressione Enter.
 3. No canto superior direito da página de extensões, ative o **modo desenvolvedor**.
 4. Clique em **Carregar sem compactação**.
-5. Navegue até a pasta extraída da extensão e selecione a pasta `dist`.
+5. Navegue até a pasta extraída da extensão e selecione a pasta.
 
 A extensão será carregada e aparecerá na lista de extensões do Chrome. Agora você pode usá-la normalmente no seu navegador.
 
