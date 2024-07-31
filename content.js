@@ -8,10 +8,10 @@ function adicionarProporcaoVolumeLiquidez() {
         row.style.display = 'none';
         return
       }
-      const volumeCell = row.querySelector(".ds-table-data-cell:nth-child(4)");
+      const volumeCell = row.querySelector(".ds-table-data-cell:nth-child(5)");
       const volumeText = volumeCell.textContent.trim();
       const liquidityCell = row.querySelector(
-        ".ds-table-data-cell:nth-child(10)",
+        ".ds-table-data-cell:nth-child(11)",
       );
       const liquidityText = liquidityCell.textContent.trim();
 
